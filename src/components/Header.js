@@ -33,7 +33,7 @@ const Logo = styled.div`
   }
 `;
 
-const Nav = styled.nav`
+/* const Nav = styled.nav`
   display: flex;
   gap: 20px;
 
@@ -51,7 +51,7 @@ const Nav = styled.nav`
     flex-direction: column;
     gap: 10px;
   }
-`;
+`; */
 
 const SocialIcons = styled.div`
   display: flex;
