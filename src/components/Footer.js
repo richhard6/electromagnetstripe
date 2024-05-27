@@ -27,7 +27,7 @@ const CompanyInfo = styled.div`
   }
 `;
 
-const Nav = styled.nav`
+/* const Nav = styled.nav`
   display: flex;
   gap: 20px;
 
@@ -47,7 +47,7 @@ const Nav = styled.nav`
     margin-bottom: 10px;
   }
 `;
-
+ */
 const SocialIcons = styled.div`
   display: flex;
   gap: 10px;
@@ -67,12 +67,7 @@ const Footer = () => (
     <CompanyInfo>
       &copy; 2024 Electromagnet Inc. Todos los derechos reservados.
     </CompanyInfo>
-    <Nav>
-      <a href="#home">Inicio</a>
-      <a href="#about">Nosotros</a>
-      <a href="#services">Servicios</a>
-      <a href="#contact">Contacto</a>
-    </Nav>
+
     <SocialIcons>
       <a href="https://facebook.com">
         <FaFacebook />
