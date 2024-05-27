@@ -21,8 +21,8 @@ const Header = () => {
       <div className="header-content">
         <h2>Bienvenido a Electromagnet Company</h2>
         <p>La mejor solución para gestionar tu negocio.</p>
-        <button>
-          <a href="https://buy.stripe.com/8wM3gebfZ5MP9uUdQQ" className="btn">
+        <button className="btn">
+          <a href="https://buy.stripe.com/8wM3gebfZ5MP9uUdQQ">
             Compra la acción
           </a>
         </button>
