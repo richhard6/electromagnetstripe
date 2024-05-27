@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Features from './components/Features';
-import Pricing from './components/Pricing';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
