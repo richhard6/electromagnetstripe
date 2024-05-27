@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <h1 className="logo">SoftwareProduct</h1>
+        <h1 className="logo">Electromagnet Company</h1>
         <ul className="nav-links">
           <li>
             <a href="#features">Características</a>
@@ -19,11 +19,13 @@ const Header = () => {
         </ul>
       </nav>
       <div className="header-content">
-        <h2>Bienvenido a SoftwareProduct</h2>
+        <h2>Bienvenido a Electromagnet Company</h2>
         <p>La mejor solución para gestionar tu negocio.</p>
-        <a href="#contact" className="btn">
-          Contáctanos
-        </a>
+        <button>
+          <a href="https://buy.stripe.com/8wM3gebfZ5MP9uUdQQ" className="btn">
+            Compra la acción
+          </a>
+        </button>
       </div>
     </header>
   );
