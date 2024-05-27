@@ -1,0 +1,19 @@
+.pricing {
+  padding: 20px;
+}
+
+.pricing-plans {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.plan h3 {
+  margin-top: 0;
+}

@@ -1,0 +1,42 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-content {
+  margin-top: 20px;
+}
+
+.header-content h2 {
+  font-size: 36px;
+}
+
+.header-content p {
+  font-size: 18px;
+  margin-top: 10px;
+}
