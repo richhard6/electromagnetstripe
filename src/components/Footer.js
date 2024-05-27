@@ -9,9 +9,6 @@ const FooterContainer = styled.footer`
   padding: 20px;
   background-color: #333;
   color: #fff;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 
   @media (max-width: 768px) {
     flex-direction: column;
