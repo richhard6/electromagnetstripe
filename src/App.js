@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Features from './components/Features';
-import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import CallToAction from './components/CallToAction';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Features />
       {/*      <Pricing /> */}
-      <ContactForm />
+      <CallToAction />
       <Footer />
       {/*  
       <h2>Electromagnet Company</h2>
