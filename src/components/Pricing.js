@@ -13,9 +13,7 @@ const Pricing = () => {
             <li>Funcionalidad 1</li>
             <li>Funcionalidad 2</li>
           </ul>
-          <a href="#" className="btn">
-            Elegir Plan
-          </a>
+          <button className="btn">Elegir Plan</button>
         </div>
         <div className="plan">
           <h3>Plan Pro</h3>
@@ -25,9 +23,7 @@ const Pricing = () => {
             <li>Funcionalidad 2</li>
             <li>Funcionalidad 3</li>
           </ul>
-          <a href="#" className="btn">
-            Elegir Plan
-          </a>
+          <button className="btn">Elegir Plan</button>
         </div>
       </div>
     </section>
