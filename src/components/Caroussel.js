@@ -33,7 +33,7 @@ const Button = styled.button`
 
 const Carousel = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  let items = [electro,magnet,company];
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev === 0 ? items.length - 1 : prev - 1));
   };
