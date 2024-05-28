@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Features from './components/Features';
 import Footer from './components/Footer';
 import CallToAction from './components/CallToAction';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
