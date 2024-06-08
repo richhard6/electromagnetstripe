@@ -41,21 +41,31 @@ const FeatureTitle = styled.span`
 
 const FeaturesList = () => {
   const features = [
-    'Integración con múltiples plataformas',
-    'Automatización de procesos de negocio',
-    'Análisis avanzado y reportes en tiempo real',
-    'Seguridad y cumplimiento de estándares internacionales',
-    'Interfaz de usuario intuitiva y personalizable',
+    {
+      name: 'Base de Datos Robusta:',
+      feature:
+        'Una extensa base de datos que incluye todas las categorías de bienes y servicios que un empresario pueda necesitar.',
+    },
+    {
+      name: 'Portal de Licitaciones:',
+      feature:
+        'Una plataforma donde las empresas pueden competir por solventar problemas mediante contratos, mejorando la transparencia y eficiencia en la adjudicación de proyectos.',
+    },
+    {
+      name: 'Directorio de Profesionales y Trabajadores:',
+      feature:
+        'Permite a las personas registrarse y obtener empleo, mientras que los empresarios pueden contratar a personas mediante un modelo premium.',
+    },
   ];
 
   return (
     <div>
-      <Title>Nuestro producto: BizLink Global</Title>
+      <Title>Nuestro producto:</Title>
       <FeaturesContainer>
         <List>
           {features.map((feature, index) => (
             <ListItem key={index}>
-              <FeatureTitle>Característica {index + 1}:</FeatureTitle> {feature}
+              <FeatureTitle>{feature.name}</FeatureTitle> {feature.feature}
             </ListItem>
           ))}
         </List>
