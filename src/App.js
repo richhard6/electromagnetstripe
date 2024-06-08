@@ -9,6 +9,8 @@ import FeaturesList from './components/FeaturesList';
 import ProductDescription from './components/ProductDescription';
 import RevenueModels from './components/RevenueModels';
 import MarketStrategy from './components/MarketStategy';
+import Benefits from './components/Benefits';
+import Description from './components/Description';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <FeaturesList />
       <RevenueModels />
       <MarketStrategy />
+      <Benefits />
+      <Description />
       <CallToAction />
       <Footer />
       {/*  
