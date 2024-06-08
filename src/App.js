@@ -5,6 +5,8 @@ import Features from './components/Features';
 import Footer from './components/Footer';
 import CallToAction from './components/CallToAction';
 import Caroussel from './components/Caroussel';
+import FeaturesList from './components/FeaturesList';
+import ProductDescription from './components/ProductDescription';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Features />
       <Caroussel />
+      <ProductDescription />
+      <FeaturesList />
       <CallToAction />
       <Footer />
       {/*  
