@@ -24,18 +24,6 @@ const CarouselItem = styled.div`
   align-items: center;
 `;
 
-const Button = styled.button`
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  margin: 20px;
-  &:hover {
-    background-color: #555;
-  }
-`;
-
 const Carousel = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   items = [
