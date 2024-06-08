@@ -8,6 +8,7 @@ import Caroussel from './components/Caroussel';
 import FeaturesList from './components/FeaturesList';
 import ProductDescription from './components/ProductDescription';
 import RevenueModels from './components/RevenueModels';
+import MarketStrategy from './components/MarketStategy';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ProductDescription />
       <FeaturesList />
       <RevenueModels />
+      <MarketStrategy />
       <CallToAction />
       <Footer />
       {/*  
