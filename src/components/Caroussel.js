@@ -42,11 +42,15 @@ const Carousel = ({ items }) => {
       valor: 'Visión',
       texto:
         'Ser la plataforma líder que conecta eficientemente mercados internacionales y talento profesional mediante soluciones tecnológicas avanzadas y centradas en la innovación.',
+      imgUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVHhfMmxs7jy3c73a5iw7lWy-7cmRTsSthug&s',
     },
     {
       valor: 'Misión',
       texto:
         'Desarrollar herramientas tecnológicas de vanguardia que simplifiquen el acceso a mercados globales, potencien la competitividad empresarial y promuevan la empleabilidad a nivel mundial.',
+      imgUrl:
+        'https://www.projectmanager.com/wp-content/uploads/2018/11/181112_Blog_Feature_Mission.jpg',
     },
   ];
   const prevSlide = () => {
@@ -62,12 +66,7 @@ const Carousel = ({ items }) => {
       <InnerCarousel currentIndex={currentIndex}>
         {items.map((item, index) => (
           <CarouselItem key={index}>
-            <Card
-              imageUrl={
-                'https://www.researchgate.net/publication/310733909/figure/fig1/AS:11431281153965942@1682607455870/Electromagnetic-fluid-coupling-simulation-model-of-contra-rotating-fan.tif'
-              }
-              data={item}
-            ></Card>
+            <Card data={item}></Card>
           </CarouselItem>
         ))}
       </InnerCarousel>

@@ -78,9 +78,9 @@ const Paragraph = styled.p`
   text-align: center;
 `;
 
-const Card = ({ imageUrl, data }) => (
+const Card = ({ data }) => (
   <CardContainer>
-    <Image src={imageUrl} alt="Card image" />
+    <Image src={data.imgUrl} alt="Card image" />
     <Title>{data.valor}</Title>
     <Paragraph>{data.texto}</Paragraph>
   </CardContainer>
