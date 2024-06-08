@@ -43,10 +43,10 @@ const ProductDescription = () => {
       <Title>BizLink Global</Title>
       <Subtitle>La solución integral para la gestión empresarial</Subtitle>
       <Paragraph>
-        Descripción del Producto: <Highlight>BizLink Global</Highlight> es una
-        herramienta empresarial diseñada para{' '}
-        <Highlight> facilitar el acceso</Highlight> a un mercado internacional
-        de productos y servicios. Ofrece las siguientes funcionalidades:
+        <Highlight>BizLink Global</Highlight> es una herramienta empresarial
+        diseñada para <Highlight> facilitar el acceso</Highlight> a un mercado
+        internacional de productos y servicios. Ofrece las siguientes
+        funcionalidades:
       </Paragraph>
     </DescriptionContainer>
   );
