@@ -18,6 +18,9 @@ const InnerCarousel = styled.div`
 const CarouselItem = styled.div`
   min-width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const Button = styled.button`
