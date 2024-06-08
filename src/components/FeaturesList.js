@@ -54,7 +54,7 @@ const FeaturesList = () => {
     {
       name: 'Directorio de Profesionales y Trabajadores:',
       feature:
-        'Permite a las personas registrarse y obtener empleo, mientras que los empresarios pueden contratar a personas mediante un modelo premium.',
+        'Permite a profesionales, técnicos y trabajadores registrarse y obtener empleo, mientras que los empresarios pueden contratar a personas mediante un modelo premium.',
     },
   ];
 
