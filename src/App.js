@@ -7,6 +7,7 @@ import CallToAction from './components/CallToAction';
 import Caroussel from './components/Caroussel';
 import FeaturesList from './components/FeaturesList';
 import ProductDescription from './components/ProductDescription';
+import RevenueModels from './components/RevenueModels';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Caroussel />
       <ProductDescription />
       <FeaturesList />
+      <RevenueModels />
       <CallToAction />
       <Footer />
       {/*  
