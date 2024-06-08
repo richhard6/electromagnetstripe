@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Card from './CarousselCard';
+import NavigationButtons from './NavigationButtons';
 
 const CarouselContainer = styled.div`
   width: 80%;
@@ -70,8 +71,7 @@ const Carousel = ({ items }) => {
           </CarouselItem>
         ))}
       </InnerCarousel>
-      <Button onClick={prevSlide}>Previous</Button>
-      <Button onClick={nextSlide}>Next</Button>
+      <NavigationButtons onPrevious={prevSlide} onNext={nextSlide} />
     </CarouselContainer>
   );
 };
