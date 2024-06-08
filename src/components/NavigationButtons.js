@@ -32,6 +32,8 @@ const NextButton = styled(Button)`
   }
 `;
 
+//no entiendo
+
 const NavigationButtons = ({ onPrevious, onNext }) => {
   return (
     <div>
