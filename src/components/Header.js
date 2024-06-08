@@ -70,7 +70,7 @@ const SocialIcons = styled.div`
 const Header = () => (
   <HeaderContainer>
     <Logo>
-      <img src="https://example.com/logo.png" alt="Company Logo" />
+      <img src="https://iili.io/Jpr1Dyg.png" alt="Company Logo" />
       Electromagnet Inc.
     </Logo>
 
