@@ -4,14 +4,14 @@ import Header from './components/Header';
 import Features from './components/Features';
 import Footer from './components/Footer';
 import CallToAction from './components/CallToAction';
-import Carousel from './components/Carousel';
+import Caroussel from './components/Caroussel';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Features />
-      {/*      <Pricing /> */}
+      <Caroussel />
       <CallToAction />
       <Footer />
       {/*  
