@@ -59,6 +59,9 @@ const Feature = styled.div`
   align-items: center;
   margin: 10px;
   width: 33%;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;
 
 const IconWrapper = styled.div`
