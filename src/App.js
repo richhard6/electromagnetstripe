@@ -16,9 +16,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Features />
+
       <Caroussel />
+      <Features />
+
       <ProductDescription />
+
       <FeaturesList />
       <RevenueModels />
       <MarketStrategy />
