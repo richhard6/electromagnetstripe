@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
+const electroMagnetLogo = './Electrom.png';
+
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
@@ -70,7 +72,7 @@ const SocialIcons = styled.div`
 const Header = () => (
   <HeaderContainer>
     <Logo>
-      <img src="https://iili.io/Jpr1Dyg.png" alt="Company Logo" />
+      <img src={electroMagnetLogo} alt="Electromagnet Logo" />
       Electromagnet Inc.
     </Logo>
 
