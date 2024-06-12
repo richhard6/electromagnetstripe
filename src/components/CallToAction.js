@@ -66,7 +66,7 @@ const CallToAction = () => (
       negocio. ¡No pierdas la oportunidad de ser parte del futuro!
     </Description>
     <Button href="#contact">
-      <a href="https://google.com">Compra la acción</a>
+      <a href="https://buy.stripe.com/dR68AyabV5MP9uU9AB">Compra la acción</a>
     </Button>
   </CallToActionContainer>
 );

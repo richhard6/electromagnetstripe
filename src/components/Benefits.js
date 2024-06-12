@@ -1,6 +1,7 @@
 // Benefits.js
 import React from 'react';
 import styled from 'styled-components';
+import { FaBuilding, FaUser } from 'react-icons/fa';
 
 const BenefitsContainer = styled.div`
   padding: 20px;
@@ -58,13 +59,25 @@ const Paragraph = styled.p`
   line-height: 1.6;
 `;
 
+const EnterpriseIcon = () => (
+  <div style={{ fontSize: '100px', color: '#007bff' }}>
+    <FaBuilding />
+  </div>
+);
+
+const ProfessionalIcon = () => (
+  <div style={{ fontSize: '100px', color: '#28a745' }}>
+    <FaUser />
+  </div>
+);
+
 const Benefits = () => {
   return (
     <BenefitsContainer>
       <MainTitle>Beneficios para los usuarios</MainTitle>
       <BenefitsGrid>
         <BenefitCard>
-          <Image src="https://via.placeholder.com/400x200" alt="Empresas" />
+          <EnterpriseIcon />
           <Title>Empresas</Title>
           <Paragraph>
             {/*           BizLink Global proporciona a las empresas herramientas avanzadas para
@@ -77,10 +90,7 @@ const Benefits = () => {
           </Paragraph>
         </BenefitCard>
         <BenefitCard>
-          <Image
-            src="https://via.placeholder.com/400x200"
-            alt="Profesionales"
-          />
+          <ProfessionalIcon />
           <Title>Profesionales</Title>
           <Paragraph>
             Oportunidades laborales en el mercado internacional, mejorando la
