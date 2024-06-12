@@ -40,13 +40,6 @@ const BenefitCard = styled.div`
   }
 `;
 
-const Image = styled.img`
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  margin-bottom: 20px;
-`;
-
 const Title = styled.h2`
   font-size: 24px;
   color: #333;
